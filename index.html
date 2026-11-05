@@ -7,10 +7,10 @@
   <meta name="description" content="Søkbar oversikt over maskinar og blokker i Minecraft-modden Create og dei mest brukte tilleggene.">
   <link rel="icon" href="img/cogwheel.svg" type="image/svg+xml">
 
-  <!-- Atkinson Hyperlegible er laga for god lesbarheit (UU). Pixelify Sans brukast berre på overskrifter. -->
+  <!-- Atkinson Hyperlegible er laga for god lesbarheit (UU). Cinzel (viktoriansk serif) brukast berre på overskrifter. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Pixelify+Sans:wght@500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Cinzel:wght@600;700&display=swap">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -33,9 +33,14 @@
 
   <header class="topp">
     <div class="innpakning topp-indre">
-      <img class="logo" src="img/cogwheel.svg" alt="" width="72" height="72">
+      <!-- Dekorative tannhjul og damp (skjult for skjermlesarar) -->
+      <div class="tannhjul-par" aria-hidden="true">
+        <div class="damp"><span></span><span></span><span></span></div>
+        <img class="logo" src="img/cogwheel.svg" alt="" width="72" height="72">
+        <img class="logo-liten" src="img/cogwheel-kopar.svg" alt="" width="46" height="46">
+      </div>
       <div class="topp-tekst">
-        <p class="overtittel">Minecraft-modden</p>
+        <p class="overtittel">Mekanisk katalog &middot; Minecraft-modden</p>
         <h1>Create <span>Maskinoversikt</span></h1>
         <p class="ingress">
           Finn maskinar og blokker frå Create og tilleggene Steam&nbsp;'n'&nbsp;Rails,
@@ -44,7 +49,7 @@
       </div>
       <button id="tema-knapp" class="knapp knapp-sekundar" type="button">Lys modus</button>
     </div>
-    <div class="fare-stripe" aria-hidden="true"></div>
+    <div class="royr" aria-hidden="true"></div>
   </header>
 
   <main id="innhald" class="innpakning" tabindex="-1">
