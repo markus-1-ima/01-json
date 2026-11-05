@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="nn" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create – maskinoversikt</title>
+  <meta name="description" content="Søkbar oversikt over maskinar og blokker i Minecraft-modden Create og dei mest brukte tilleggene.">
+  <link rel="icon" href="img/cogwheel.svg" type="image/svg+xml">
+
+  <!-- Atkinson Hyperlegible er laga for god lesbarheit (UU). Pixelify Sans brukast berre på overskrifter. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Pixelify+Sans:wght@500;700&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Liten inline-snutt: set tema før sida teiknast, så det ikkje blinkar. -->
+  <script>
+    (function () {
+      var tema = "dark";
+      try {
+        var lagra = localStorage.getItem("create-tema");
+        if (lagra === "light" || lagra === "dark") { tema = lagra; }
+        else if (window.matchMedia("(prefers-color-scheme: light)").matches) { tema = "light"; }
+      } catch (e) { /* localStorage kan vere blokkert – bruk standard */ }
+      document.documentElement.setAttribute("data-theme", tema);
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="hopp-over" href="#innhald">Hopp til innhald</a>
+
+  <header class="topp">
+    <div class="innpakning topp-indre">
+      <img class="logo" src="img/cogwheel.svg" alt="" width="72" height="72">
+      <div class="topp-tekst">
+        <p class="overtittel">Minecraft-modden</p>
+        <h1>Create <span>Maskinoversikt</span></h1>
+        <p class="ingress">
+          Finn maskinar og blokker frå Create og tilleggene Steam&nbsp;'n'&nbsp;Rails,
+          Crafts&nbsp;&amp;&nbsp;Additions og Big&nbsp;Cannons. Søk, filtrer og sorter.
+        </p>
+      </div>
+      <button id="tema-knapp" class="knapp knapp-sekundar" type="button">Lys modus</button>
+    </div>
+    <div class="fare-stripe" aria-hidden="true"></div>
+  </header>
+
+  <main id="innhald" class="innpakning" tabindex="-1">
+
+    <section aria-labelledby="statistikk-tittel">
+      <h2 id="statistikk-tittel" class="berre-skjermlesar">Samandrag</h2>
+      <dl class="statistikk" id="statistikk">
+        <!-- Fylt av script.js når JSON er lasta -->
+      </dl>
+    </section>
+
+    <section class="panel verktoy" aria-labelledby="filter-tittel">
+      <h2 id="filter-tittel">Finn ei maskin</h2>
+
+      <form id="filter-skjema" role="search" aria-label="Søk og filter" autocomplete="off">
+        <div class="felt felt-sok">
+          <label for="sok">Søk i namn og skildring</label>
+          <input id="sok" name="sok" type="search" placeholder="t.d. press, tog, straum …">
+        </div>
+
+        <div class="felt">
+          <label for="mod-val">Mod</label>
+          <select id="mod-val" name="mod"></select>
+        </div>
+
+        <div class="felt">
+          <label for="kraft-val">Drivkraft</label>
+          <select id="kraft-val" name="kraft"></select>
+        </div>
+
+        <div class="felt">
+          <label for="sorter-val">Sorter etter</label>
+          <select id="sorter-val" name="sorter">
+            <option value="namn-asc">Namn A–Å</option>
+            <option value="namn-desc">Namn Å–A</option>
+            <option value="kategori">Kategori</option>
+            <option value="mod">Mod</option>
+            <option value="id">Original rekkjefølgje</option>
+          </select>
+        </div>
+
+        <fieldset class="felt felt-kategori">
+          <legend>Kategori</legend>
+          <div id="kategori-knappar" class="kategori-knappar">
+            <!-- Knappar blir laga av script.js -->
+          </div>
+        </fieldset>
+
+        <div class="felt felt-handling">
+          <div class="avkryssing">
+            <input id="berre-fav" name="berre-fav" type="checkbox">
+            <label for="berre-fav">Vis berre favorittar</label>
+          </div>
+          <button id="nullstill" class="knapp knapp-sekundar" type="button">Nullstill</button>
+        </div>
+      </form>
+    </section>
+
+    <section aria-labelledby="liste-tittel">
+      <div class="liste-topp">
+        <h2 id="liste-tittel">Maskinar og blokker</h2>
+        <!-- role="status" gjer at skjermlesarar les opp endringar i talet på treff -->
+        <p id="resultat-status" class="resultat-status" role="status">Lastar …</p>
+      </div>
+
+      <div id="feilmelding" class="panel feil" role="alert" hidden></div>
+      <div id="ingen-treff" class="panel ingen-treff" hidden>
+        <p><strong>Ingen treff.</strong> Prøv eit anna søkeord eller nullstill filtera.</p>
+      </div>
+
+      <ul id="maskinliste" class="maskinliste" aria-labelledby="liste-tittel"></ul>
+    </section>
+  </main>
+
+  <footer class="botn">
+    <div class="innpakning">
+      <p>
+        Skuleprosjekt om JSON – data i <code>data/create_maskiner.json</code> blir henta med <code>fetch()</code>.
+        Dette er ei uoffisiell fanside; Create er laga av Create-teamet og Minecraft tilhøyrer Mojang.
+        Kontroller opplysingar mot Ponder i spelet for di versjon.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "namn": "Water Wheel",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Gir rotasjonskraft frå rennande vatn.",
+    "bilete": "img/water_wheel.png",
+    "alt": "Skjermbilete av Water Wheel i Minecraft"
+  },
+  {
+    "id": 2,
+    "namn": "Large Water Wheel",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Større vasshjul som gir meir kraft.",
+    "bilete": "img/large_water_wheel.png",
+    "alt": "Skjermbilete av Large Water Wheel i Minecraft"
+  },
+  {
+    "id": 3,
+    "namn": "Windmill Bearing",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Gjer ei konstruksjon av blokker om til ei vindmølle.",
+    "bilete": "img/windmill_bearing.png",
+    "alt": "Skjermbilete av Windmill Bearing i Minecraft"
+  },
+  {
+    "id": 4,
+    "namn": "Steam Engine",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Lagar rotasjonskraft frå damp, med Fluid Tank og Blaze Burner.",
+    "bilete": "img/steam_engine.png",
+    "alt": "Skjermbilete av Steam Engine i Minecraft"
+  },
+  {
+    "id": 5,
+    "namn": "Hand Crank",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Veiv du held inne for å gi kraft for hand.",
+    "bilete": "img/hand_crank.png",
+    "alt": "Skjermbilete av Hand Crank i Minecraft"
+  },
+  {
+    "id": 6,
+    "namn": "Creative Motor",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Gir ubegrensa kraft med valfri fart, berre i kreativ modus.",
+    "bilete": "img/creative_motor.png",
+    "alt": "Skjermbilete av Creative Motor i Minecraft"
+  },
+  {
+    "id": 7,
+    "namn": "Flywheel",
+    "mod": "Create",
+    "kategori": "Kraft",
+    "drivkraft": "Rotasjon",
+    "skildring": "Dekorativt svinghjul som går saman med dampmotor.",
+    "bilete": "img/flywheel.png",
+    "alt": "Skjermbilete av Flywheel i Minecraft"
+  },
+  {
+    "id": 8,
+    "namn": "Shaft",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Fører rotasjon langs ei rett linje.",
+    "bilete": "img/shaft.png",
+    "alt": "Skjermbilete av Shaft i Minecraft"
+  },
+  {
+    "id": 9,
+    "namn": "Cogwheel",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Overfører rotasjon mellom tilstøytande aksar.",
+    "bilete": "img/cogwheel.png",
+    "alt": "Skjermbilete av Cogwheel i Minecraft"
+  },
+  {
+    "id": 10,
+    "namn": "Large Cogwheel",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Stort tannhjul som endrar fart i forhold til lite tannhjul.",
+    "bilete": "img/large_cogwheel.png",
+    "alt": "Skjermbilete av Large Cogwheel i Minecraft"
+  },
+  {
+    "id": 11,
+    "namn": "Gearbox",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Deler rotasjonen i fleire retningar.",
+    "bilete": "img/gearbox.png",
+    "alt": "Skjermbilete av Gearbox i Minecraft"
+  },
+  {
+    "id": 12,
+    "namn": "Clutch",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Koplar rotasjonen av og på med rødsten.",
+    "bilete": "img/clutch.png",
+    "alt": "Skjermbilete av Clutch i Minecraft"
+  },
+  {
+    "id": 13,
+    "namn": "Gearshift",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Snur rotasjonsretninga med rødsten.",
+    "bilete": "img/gearshift.png",
+    "alt": "Skjermbilete av Gearshift i Minecraft"
+  },
+  {
+    "id": 14,
+    "namn": "Chain Drive",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Koplar saman aksar over avstand med kjetting.",
+    "bilete": "img/chain_drive.png",
+    "alt": "Skjermbilete av Chain Drive i Minecraft"
+  },
+  {
+    "id": 15,
+    "namn": "Belt",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Transmisjon over avstand; kan òg flytte gjenstandar.",
+    "bilete": "img/belt.png",
+    "alt": "Skjermbilete av Belt i Minecraft"
+  },
+  {
+    "id": 16,
+    "namn": "Rotation Speed Controller",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Set nøyaktig rotasjonsfart.",
+    "bilete": "img/rotation_speed_controller.png",
+    "alt": "Skjermbilete av Rotation Speed Controller i Minecraft"
+  },
+  {
+    "id": 17,
+    "namn": "Sequenced Gearshift",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Rotasjon",
+    "skildring": "Utfører programmerte rotasjonar.",
+    "bilete": "img/sequenced_gearshift.png",
+    "alt": "Skjermbilete av Sequenced Gearshift i Minecraft"
+  },
+  {
+    "id": 18,
+    "namn": "Speedometer",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Ingen",
+    "skildring": "Viser kor fort noko roterer.",
+    "bilete": "img/speedometer.png",
+    "alt": "Skjermbilete av Speedometer i Minecraft"
+  },
+  {
+    "id": 19,
+    "namn": "Stressometer",
+    "mod": "Create",
+    "kategori": "Transmisjon",
+    "drivkraft": "Ingen",
+    "skildring": "Viser stressbruk i nettverket.",
+    "bilete": "img/stressometer.png",
+    "alt": "Skjermbilete av Stressometer i Minecraft"
+  },
+  {
+    "id": 20,
+    "namn": "Millstone",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Kvernar gjenstandar til pulver eller anna.",
+    "bilete": "img/millstone.png",
+    "alt": "Skjermbilete av Millstone i Minecraft"
+  },
+  {
+    "id": 21,
+    "namn": "Crushing Wheel",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "To hjul som knuser blokker og gjenstandar.",
+    "bilete": "img/crushing_wheel.png",
+    "alt": "Skjermbilete av Crushing Wheel i Minecraft"
+  },
+  {
+    "id": 22,
+    "namn": "Mechanical Press",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Presser gjenstandar til plater.",
+    "bilete": "img/mechanical_press.png",
+    "alt": "Skjermbilete av Mechanical Press i Minecraft"
+  },
+  {
+    "id": 23,
+    "namn": "Mechanical Mixer",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Blandar ingrediensar i ein Basin.",
+    "bilete": "img/mechanical_mixer.png",
+    "alt": "Skjermbilete av Mechanical Mixer i Minecraft"
+  },
+  {
+    "id": 24,
+    "namn": "Basin",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Ingen",
+    "skildring": "Behaldar som blir brukt saman med presse og mikser.",
+    "bilete": "img/basin.png",
+    "alt": "Skjermbilete av Basin i Minecraft"
+  },
+  {
+    "id": 25,
+    "namn": "Blaze Burner",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Brennstoff",
+    "skildring": "Varmekjelde for mikser og dampmotor.",
+    "bilete": "img/blaze_burner.png",
+    "alt": "Skjermbilete av Blaze Burner i Minecraft"
+  },
+  {
+    "id": 26,
+    "namn": "Encased Fan",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Blåser luft som kan vaske, røyke og smelte gjenstandar.",
+    "bilete": "img/encased_fan.png",
+    "alt": "Skjermbilete av Encased Fan i Minecraft"
+  },
+  {
+    "id": 27,
+    "namn": "Spout",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Ingen",
+    "skildring": "Fyller væske på gjenstandar og i behaldarar.",
+    "bilete": "img/spout.png",
+    "alt": "Skjermbilete av Spout i Minecraft"
+  },
+  {
+    "id": 28,
+    "namn": "Item Drain",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Ingen",
+    "skildring": "Tappar væske ut av gjenstandar.",
+    "bilete": "img/item_drain.png",
+    "alt": "Skjermbilete av Item Drain i Minecraft"
+  },
+  {
+    "id": 29,
+    "namn": "Deployer",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Brukar gjenstandar som ein spelar.",
+    "bilete": "img/deployer.png",
+    "alt": "Skjermbilete av Deployer i Minecraft"
+  },
+  {
+    "id": 30,
+    "namn": "Mechanical Saw",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Saga tre og andre blokker.",
+    "bilete": "img/mechanical_saw.png",
+    "alt": "Skjermbilete av Mechanical Saw i Minecraft"
+  },
+  {
+    "id": 31,
+    "namn": "Mechanical Drill",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Bryt blokker.",
+    "bilete": "img/mechanical_drill.png",
+    "alt": "Skjermbilete av Mechanical Drill i Minecraft"
+  },
+  {
+    "id": 32,
+    "namn": "Mechanical Harvester",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Haustar avlingar automatisk.",
+    "bilete": "img/mechanical_harvester.png",
+    "alt": "Skjermbilete av Mechanical Harvester i Minecraft"
+  },
+  {
+    "id": 33,
+    "namn": "Mechanical Plough",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Pløyer jord og fjernar små plantar.",
+    "bilete": "img/mechanical_plough.png",
+    "alt": "Skjermbilete av Mechanical Plough i Minecraft"
+  },
+  {
+    "id": 34,
+    "namn": "Mechanical Crafter",
+    "mod": "Create",
+    "kategori": "Prosessering",
+    "drivkraft": "Rotasjon",
+    "skildring": "Lagar ting i et rutenett saman med andre crafters.",
+    "bilete": "img/mechanical_crafter.png",
+    "alt": "Skjermbilete av Mechanical Crafter i Minecraft"
+  },
+  {
+    "id": 35,
+    "namn": "Mechanical Pump",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Rotasjon",
+    "skildring": "Pumpar væske gjennom røyr.",
+    "bilete": "img/mechanical_pump.png",
+    "alt": "Skjermbilete av Mechanical Pump i Minecraft"
+  },
+  {
+    "id": 36,
+    "namn": "Fluid Pipe",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Ingen",
+    "skildring": "Transporterer væske.",
+    "bilete": "img/fluid_pipe.png",
+    "alt": "Skjermbilete av Fluid Pipe i Minecraft"
+  },
+  {
+    "id": 37,
+    "namn": "Fluid Tank",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Ingen",
+    "skildring": "Lagrar væske.",
+    "bilete": "img/fluid_tank.png",
+    "alt": "Skjermbilete av Fluid Tank i Minecraft"
+  },
+  {
+    "id": 38,
+    "namn": "Hose Pulley",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Rotasjon",
+    "skildring": "Hentar eller tømmer store mengder væske.",
+    "bilete": "img/hose_pulley.png",
+    "alt": "Skjermbilete av Hose Pulley i Minecraft"
+  },
+  {
+    "id": 39,
+    "namn": "Item Vault",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Ingen",
+    "skildring": "Stort lagerrom for gjenstandar.",
+    "bilete": "img/item_vault.png",
+    "alt": "Skjermbilete av Item Vault i Minecraft"
+  },
+  {
+    "id": 40,
+    "namn": "Andesite Funnel",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Ingen",
+    "skildring": "Flyttar gjenstandar inn og ut av behaldarar.",
+    "bilete": "img/andesite_funnel.png",
+    "alt": "Skjermbilete av Andesite Funnel i Minecraft"
+  },
+  {
+    "id": 41,
+    "namn": "Brass Funnel",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Rødsten",
+    "skildring": "Flyttar gjenstandar og kan filtrere.",
+    "bilete": "img/brass_funnel.png",
+    "alt": "Skjermbilete av Brass Funnel i Minecraft"
+  },
+  {
+    "id": 42,
+    "namn": "Chute",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Ingen",
+    "skildring": "Flyttar gjenstandar vertikalt.",
+    "bilete": "img/chute.png",
+    "alt": "Skjermbilete av Chute i Minecraft"
+  },
+  {
+    "id": 43,
+    "namn": "Mechanical Arm",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Rotasjon",
+    "skildring": "Flyttar gjenstandar mellom stader automatisk.",
+    "bilete": "img/mechanical_arm.png",
+    "alt": "Skjermbilete av Mechanical Arm i Minecraft"
+  },
+  {
+    "id": 44,
+    "namn": "Depot",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Ingen",
+    "skildring": "Flat plate som held gjenstandar.",
+    "bilete": "img/depot.png",
+    "alt": "Skjermbilete av Depot i Minecraft"
+  },
+  {
+    "id": 45,
+    "namn": "Redstone Link",
+    "mod": "Create",
+    "kategori": "Logistikk",
+    "drivkraft": "Rødsten",
+    "skildring": "Sender rødsten trådlaust.",
+    "bilete": "img/redstone_link.png",
+    "alt": "Skjermbilete av Redstone Link i Minecraft"
+  },
+  {
+    "id": 46,
+    "namn": "Mechanical Bearing",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Rotasjon",
+    "skildring": "Roterer ei konstruksjon av blokker.",
+    "bilete": "img/mechanical_bearing.png",
+    "alt": "Skjermbilete av Mechanical Bearing i Minecraft"
+  },
+  {
+    "id": 47,
+    "namn": "Clockwork Bearing",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Rotasjon",
+    "skildring": "Roterer konstruksjonar som visarar i eit ur.",
+    "bilete": "img/clockwork_bearing.png",
+    "alt": "Skjermbilete av Clockwork Bearing i Minecraft"
+  },
+  {
+    "id": 48,
+    "namn": "Rope Pulley",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Rotasjon",
+    "skildring": "Flyttar ei konstruksjon opp og ned.",
+    "bilete": "img/rope_pulley.png",
+    "alt": "Skjermbilete av Rope Pulley i Minecraft"
+  },
+  {
+    "id": 49,
+    "namn": "Mechanical Piston",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Rotasjon",
+    "skildring": "Flyttar ei konstruksjon fram og tilbake.",
+    "bilete": "img/mechanical_piston.png",
+    "alt": "Skjermbilete av Mechanical Piston i Minecraft"
+  },
+  {
+    "id": 50,
+    "namn": "Gantry Carriage",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Rotasjon",
+    "skildring": "Flyttar ei konstruksjon langs ein gantry-aksel.",
+    "bilete": "img/gantry_carriage.png",
+    "alt": "Skjermbilete av Gantry Carriage i Minecraft"
+  },
+  {
+    "id": 51,
+    "namn": "Cart Assembler",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Rødsten",
+    "skildring": "Gjer ein vogn til ei rullande konstruksjon.",
+    "bilete": "img/cart_assembler.png",
+    "alt": "Skjermbilete av Cart Assembler i Minecraft"
+  },
+  {
+    "id": 52,
+    "namn": "Portable Storage Interface",
+    "mod": "Create",
+    "kategori": "Bevegelse",
+    "drivkraft": "Ingen",
+    "skildring": "Flyttar gjenstandar inn og ut av ei rørsle.",
+    "bilete": "img/portable_storage_interface.png",
+    "alt": "Skjermbilete av Portable Storage Interface i Minecraft"
+  },
+  {
+    "id": 53,
+    "namn": "Train Track",
+    "mod": "Create",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Skinner som toga kan køyre på.",
+    "bilete": "img/train_track.png",
+    "alt": "Skjermbilete av Train Track i Minecraft"
+  },
+  {
+    "id": 54,
+    "namn": "Train Station",
+    "mod": "Create",
+    "kategori": "Tog",
+    "drivkraft": "Rødsten",
+    "skildring": "Stoppar og styrer tog.",
+    "bilete": "img/train_station.png",
+    "alt": "Skjermbilete av Train Station i Minecraft"
+  },
+  {
+    "id": 55,
+    "namn": "Train Signal",
+    "mod": "Create",
+    "kategori": "Tog",
+    "drivkraft": "Rødsten",
+    "skildring": "Hindrar kollisjonar mellom tog.",
+    "bilete": "img/train_signal.png",
+    "alt": "Skjermbilete av Train Signal i Minecraft"
+  },
+  {
+    "id": 56,
+    "namn": "Train Observer",
+    "mod": "Create",
+    "kategori": "Tog",
+    "drivkraft": "Rødsten",
+    "skildring": "Oppdagar tog og sender rødsten-signal.",
+    "bilete": "img/train_observer.png",
+    "alt": "Skjermbilete av Train Observer i Minecraft"
+  },
+  {
+    "id": 57,
+    "namn": "Train Controls",
+    "mod": "Create",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Kontrollpanel for å køyre toget.",
+    "bilete": "img/train_controls.png",
+    "alt": "Skjermbilete av Train Controls i Minecraft"
+  },
+  {
+    "id": 58,
+    "namn": "Train Bogey",
+    "mod": "Create",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Understell med hjul som toget står på.",
+    "bilete": "img/train_bogey.png",
+    "alt": "Skjermbilete av Train Bogey i Minecraft"
+  },
+  {
+    "id": 59,
+    "namn": "Schematicannon",
+    "mod": "Create",
+    "kategori": "Skjerm og verktøy",
+    "drivkraft": "Ingen",
+    "skildring": "Byggjer strukturar frå ein tegning.",
+    "bilete": "img/schematicannon.png",
+    "alt": "Skjermbilete av Schematicannon i Minecraft"
+  },
+  {
+    "id": 60,
+    "namn": "Nixie Tube",
+    "mod": "Create",
+    "kategori": "Skjerm og verktøy",
+    "drivkraft": "Rødsten",
+    "skildring": "Viser tekst eller rødsten-styrke.",
+    "bilete": "img/nixie_tube.png",
+    "alt": "Skjermbilete av Nixie Tube i Minecraft"
+  },
+  {
+    "id": 61,
+    "namn": "Display Link",
+    "mod": "Create",
+    "kategori": "Skjerm og verktøy",
+    "drivkraft": "Ingen",
+    "skildring": "Sender informasjon til ein skjerm.",
+    "bilete": "img/display_link.png",
+    "alt": "Skjermbilete av Display Link i Minecraft"
+  },
+  {
+    "id": 62,
+    "namn": "Rail (åtte nye typar)",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Nye skinner, som gull, mørk eik og monorail.",
+    "bilete": "img/rail_tte_nye_typar.png",
+    "alt": "Skjermbilete av Rail (åtte nye typar) i Minecraft"
+  },
+  {
+    "id": 63,
+    "namn": "Semaphore",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Rødsten",
+    "skildring": "Signalblokk som kan brukast i staden for nixie tube.",
+    "bilete": "img/semaphore.png",
+    "alt": "Skjermbilete av Semaphore i Minecraft"
+  },
+  {
+    "id": 64,
+    "namn": "Coupling Block",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Rødsten",
+    "skildring": "Koplar saman eller skil to tog når den får straum.",
+    "bilete": "img/coupling_block.png",
+    "alt": "Skjermbilete av Coupling Block i Minecraft"
+  },
+  {
+    "id": 65,
+    "namn": "Smokestack",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Dekorativ skorstein som kan erstatte bål.",
+    "bilete": "img/smokestack.png",
+    "alt": "Skjermbilete av Smokestack i Minecraft"
+  },
+  {
+    "id": 66,
+    "namn": "Workbench Cart",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Minecart med arbeidsbenk.",
+    "bilete": "img/workbench_cart.png",
+    "alt": "Skjermbilete av Workbench Cart i Minecraft"
+  },
+  {
+    "id": 67,
+    "namn": "Jukebox Cart",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Minecart som spelar musikk.",
+    "bilete": "img/jukebox_cart.png",
+    "alt": "Skjermbilete av Jukebox Cart i Minecraft"
+  },
+  {
+    "id": 68,
+    "namn": "Conductor Whistle",
+    "mod": "Create: Steam 'n' Rails",
+    "kategori": "Tog",
+    "drivkraft": "Ingen",
+    "skildring": "Tilkallar eit tog med konduktør.",
+    "bilete": "img/conductor_whistle.png",
+    "alt": "Skjermbilete av Conductor Whistle i Minecraft"
+  },
+  {
+    "id": 69,
+    "namn": "Electric Motor",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Straum (FE)",
+    "skildring": "Gjer straum om til rotasjonskraft.",
+    "bilete": "img/electric_motor.png",
+    "alt": "Skjermbilete av Electric Motor i Minecraft"
+  },
+  {
+    "id": 70,
+    "namn": "Alternator",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Rotasjon",
+    "skildring": "Gjer rotasjonskraft om til straum med 75 % effektivitet.",
+    "bilete": "img/alternator.png",
+    "alt": "Skjermbilete av Alternator i Minecraft"
+  },
+  {
+    "id": 71,
+    "namn": "Rolling Mill",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Rotasjon",
+    "skildring": "Lagar trådar og stenger.",
+    "bilete": "img/rolling_mill.png",
+    "alt": "Skjermbilete av Rolling Mill i Minecraft"
+  },
+  {
+    "id": 72,
+    "namn": "Creative Generator",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Ingen",
+    "skildring": "Gir ubegrensa straum, berre i kreativ modus.",
+    "bilete": "img/creative_generator.png",
+    "alt": "Skjermbilete av Creative Generator i Minecraft"
+  },
+  {
+    "id": 73,
+    "namn": "Accumulator",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Straum (FE)",
+    "skildring": "Lagrar straum i fleire blokker.",
+    "bilete": "img/accumulator.png",
+    "alt": "Skjermbilete av Accumulator i Minecraft"
+  },
+  {
+    "id": 74,
+    "namn": "Tesla Coil",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Straum (FE)",
+    "skildring": "Ladar gjenstandar og kan skade spelarar og mobbar.",
+    "bilete": "img/tesla_coil.png",
+    "alt": "Skjermbilete av Tesla Coil i Minecraft"
+  },
+  {
+    "id": 75,
+    "namn": "Digital Adapter",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Straum (FE)",
+    "skildring": "Let datamaskinar frå ComputerCraft styre Create-blokker.",
+    "bilete": "img/digital_adapter.png",
+    "alt": "Skjermbilete av Digital Adapter i Minecraft"
+  },
+  {
+    "id": 76,
+    "namn": "Connector og Wires",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Straum (FE)",
+    "skildring": "Fører straum mellom blokker.",
+    "bilete": "img/connector_og_wires.png",
+    "alt": "Skjermbilete av Connector og Wires i Minecraft"
+  },
+  {
+    "id": 77,
+    "namn": "Redstone Relay",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Rødsten",
+    "skildring": "Styrer straumflyten med rødsten.",
+    "bilete": "img/redstone_relay.png",
+    "alt": "Skjermbilete av Redstone Relay i Minecraft"
+  },
+  {
+    "id": 78,
+    "namn": "Portable Energy Interface",
+    "mod": "Create Crafts & Additions",
+    "kategori": "Straum",
+    "drivkraft": "Straum (FE)",
+    "skildring": "Flyttar straum til og frå rørsler.",
+    "bilete": "img/portable_energy_interface.png",
+    "alt": "Skjermbilete av Portable Energy Interface i Minecraft"
+  },
+  {
+    "id": 79,
+    "namn": "Big Cannon",
+    "mod": "Create Big Cannons",
+    "kategori": "Våpen",
+    "drivkraft": "Rotasjon",
+    "skildring": "Kanon bygd av fleire blokker i ulike materialnivå.",
+    "bilete": "img/big_cannon.png",
+    "alt": "Skjermbilete av Big Cannon i Minecraft"
+  },
+  {
+    "id": 80,
+    "namn": "Autocannon",
+    "mod": "Create Big Cannons",
+    "kategori": "Våpen",
+    "drivkraft": "Rotasjon",
+    "skildring": "Raskare kanon med fleire moglegheiter.",
+    "bilete": "img/autocannon.png",
+    "alt": "Skjermbilete av Autocannon i Minecraft"
+  },
+  {
+    "id": 81,
+    "namn": "Cannon Mount",
+    "mod": "Create Big Cannons",
+    "kategori": "Våpen",
+    "drivkraft": "Rotasjon",
+    "skildring": "Festar kanonen og lar han bli retta.",
+    "bilete": "img/cannon_mount.png",
+    "alt": "Skjermbilete av Cannon Mount i Minecraft"
+  },
+  {
+    "id": 82,
+    "namn": "Cannon Loader",
+    "mod": "Create Big Cannons",
+    "kategori": "Våpen",
+    "drivkraft": "Rotasjon",
+    "skildring": "Lastar ammunisjon i kanonen.",
+    "bilete": "img/cannon_loader.png",
+    "alt": "Skjermbilete av Cannon Loader i Minecraft"
+  },
+  {
+    "id": 83,
+    "namn": "Cannon Drill",
+    "mod": "Create Big Cannons",
+    "kategori": "Våpen",
+    "drivkraft": "Rotasjon",
+    "skildring": "Borar ut løpet til kanonen.",
+    "bilete": "img/cannon_drill.png",
+    "alt": "Skjermbilete av Cannon Drill i Minecraft"
+  },
+  {
+    "id": 84,
+    "namn": "Cannon Builder",
+    "mod": "Create Big Cannons",
+    "kategori": "Våpen",
+    "drivkraft": "Rotasjon",
+    "skildring": "Byggjer kanonløp blokk for blokk.",
+    "bilete": "img/cannon_builder.png",
+    "alt": "Skjermbilete av Cannon Builder i Minecraft"
+  }
+]
